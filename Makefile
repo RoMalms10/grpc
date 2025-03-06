@@ -2,7 +2,7 @@
 
 # Directory structure
 PROTO_DIR = ./proto
-OUT_DIR = ./meme
+OUT_DIR = .
 
 generate:
 	@echo "Generating Go code from protobuf definitions..."
