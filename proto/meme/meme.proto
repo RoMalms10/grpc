@@ -33,7 +33,6 @@ message GenerateMemeRequest {
   string caption_prompt = 6;
 }
 
-// GenerateMemeResponse contains the generated meme
 message GenerateMemeResponse {
   // Base64-encoded image data
   string image_data = 1;
@@ -48,13 +47,11 @@ message GenerateMemeResponse {
   string error = 4;
 }
 
-// ListTemplatesRequest may contain optional filters
 message ListTemplatesRequest {
   // Optional category filter
   string category = 1;
 }
 
-// Template represents a meme template
 message Template {
   // Unique identifier for the template
   string id = 1;
@@ -72,7 +69,6 @@ message Template {
   string preview_url = 5;
 }
 
-// ListTemplatesResponse contains available meme templates
 message ListTemplatesResponse {
   // List of available templates
   repeated Template templates = 1;

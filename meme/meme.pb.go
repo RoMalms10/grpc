@@ -114,7 +114,6 @@ func (x *GenerateMemeRequest) GetCaptionPrompt() string {
 	return ""
 }
 
-// GenerateMemeResponse contains the generated meme
 type GenerateMemeResponse struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache
@@ -190,7 +189,6 @@ func (x *GenerateMemeResponse) GetError() string {
 	return ""
 }
 
-// ListTemplatesRequest may contain optional filters
 type ListTemplatesRequest struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache
@@ -239,7 +237,6 @@ func (x *ListTemplatesRequest) GetCategory() string {
 	return ""
 }
 
-// Template represents a meme template
 type Template struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache
@@ -324,7 +321,6 @@ func (x *Template) GetPreviewUrl() string {
 	return ""
 }
 
-// ListTemplatesResponse contains available meme templates
 type ListTemplatesResponse struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache
